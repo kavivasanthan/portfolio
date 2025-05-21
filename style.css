@@ -1,0 +1,125 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: sans-serif;
+    
+    
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+/*--------Navbar--------*/
+
+#navbar{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+
+.bold{
+    font-size: 24px;
+}
+
+li{
+    padding: 5px;
+}
+
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+.nav-link:hover{
+    border-bottom: 2px solid blue;
+    transition: .3s;
+}
+
+
+/*--------Home--------*/
+
+span{
+    color: blue;
+    font-weight: bold;
+}
+
+#home img{
+    width: 25rem;
+    border-radius: 50%;
+    
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.row button{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.row button:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
+}
+
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    
+}
+/*--------About--------*/
+
+#about img{
+    width: 25rem;
+    height: 25rem;
+}
+
+/*---------------Services------------*/
+
+.card img{
+    height: 200px;
+    transition: .5s;
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.card img:hover{
+    transform: scale(1.5);
+    transition: .5s;
+}
+
+
+/*--------Contact--------*/
+
+form{
+    padding: 40px;
+    box-shadow: 2px 2px 5px rgba(0, 0,0, .2),
+               -1px -1px 5px rgba(0, 0,0, .05);
+    border-radius: 10%;
+}
